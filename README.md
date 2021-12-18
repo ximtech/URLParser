@@ -1,6 +1,6 @@
-# URLParser Parser
+# URL Parser
 
-URLParser parser allows splitting the URLParser into individual components.
+URLParser parser allows splitting the URL into individual components.
 
 ### Features
 
@@ -13,9 +13,9 @@ Library parses URL for such components:
   and `WWW.SomeDb.com` are equivalent)
 - ***Port***. A number used to identify a specific webserver at the provided hostname. When omitted, a scheme specific
   default value is used. For http, the default is `80`. For https, the default is `443`.
-- ***Path***. The portion of the URLParser from a slash `/` following the origin up to the query or fragment. When
+- ***Path***. The portion of the URL from a slash `/` following the origin up to the query or fragment. When
   omitted, the default path `/` is used.
-- ***Parameters***. URLParser parameter is a way to pass information about a click through its URLParser. For
+- ***Parameters***. URL parameter is a way to pass information about a click through its URL. For
   example, `http://example.com?product=1234&utm_source=google`
 - ***Fragment***. A fragment is an internal page reference, sometimes called a named anchor. It refers to a section
   within a web page.
