@@ -4,29 +4,22 @@ URLParser parser allows splitting the URLParser into individual components.
 
 ### Features
 
-Library parses URLParser for such components:
+Library parses URL for such components:
 
 - ***Protocol***. Determines how data is transferred between the host and a web browser (or client).
   Example: `HTTP, HTTPS, FTP, DNS, DHCP, IMAP, SMTP`
-
 - ***Host***. The name or address of the webserver to be accessed. Hostname is not case-sensitive (
   e.g., `www.somedb.com`
   and `WWW.SomeDb.com` are equivalent)
-
 - ***Port***. A number used to identify a specific webserver at the provided hostname. When omitted, a scheme specific
   default value is used. For http, the default is `80`. For https, the default is `443`.
-
 - ***Path***. The portion of the URLParser from a slash `/` following the origin up to the query or fragment. When
   omitted, the default path `/` is used.
-
 - ***Parameters***. URLParser parameter is a way to pass information about a click through its URLParser. For
   example, `http://example.com?product=1234&utm_source=google`
-
 - ***Fragment***. A fragment is an internal page reference, sometimes called a named anchor. It refers to a section
   within a web page.
-
 - ***Username***. The standard method to pass basic authentication to web servers
-
 - ***Password***. The standard method to pass basic authentication to web servers
 
 ### Add as CPM project dependency
