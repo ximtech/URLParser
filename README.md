@@ -1,5 +1,7 @@
 # URL Parser
 
+[![tests](https://github.com/ximtech/URLParser/actions/workflows/cmake-ci.yml/badge.svg)](https://github.com/ximtech/URLParser/actions/workflows/cmake-ci.yml)
+
 URLParser parser allows splitting the URL into individual components.
 
 ### Features
