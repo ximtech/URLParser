@@ -2,6 +2,7 @@
 
 [![tests](https://github.com/ximtech/URLParser/actions/workflows/cmake-ci.yml/badge.svg)](https://github.com/ximtech/URLParser/actions/workflows/cmake-ci.yml)
 [![codecov](https://codecov.io/gh/ximtech/URLParser/branch/main/graph/badge.svg?token=GFIQA6J04M)](https://codecov.io/gh/ximtech/URLParser)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/9cefce8be92847d5b2b6dbd06e5a7312)](https://www.codacy.com/gh/ximtech/URLParser/dashboard)
 
 URLParser parser allows splitting the URL into individual components.
 
